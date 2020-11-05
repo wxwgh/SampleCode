@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Develop:jar">
+    <output-path>$PROJECT_DIR$/../../bundles/plugin_bundles</output-path>
+    <root id="archive" name="Develop.jar">
+      <element id="module-output" name="Develop" />
+      <element id="file-copy" path="$PROJECT_DIR$/Develop/src/main/resources/SuperMap.Desktop.Develop.config" />
+    </root>
+  </artifact>
+</component>

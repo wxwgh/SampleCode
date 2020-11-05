@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DownLoad:jar">
+    <output-path>$PROJECT_DIR$/../../bundles/plugin_bundles</output-path>
+    <root id="archive" name="DownLoad.jar">
+      <element id="module-output" name="DownLoad" />
+      <element id="file-copy" path="$PROJECT_DIR$/DownLoad/src/main/resources/SuperMap.Desktop.DownLoad.config" />
+    </root>
+  </artifact>
+</component>
