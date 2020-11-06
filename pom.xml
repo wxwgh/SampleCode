@@ -11,6 +11,9 @@
     <modules>
         <module>Develop</module>
         <module>DownLoad</module>
+        <module>MapTool</module>
+        <module>VectorEditor</module>
+        <module>UserControl</module>
     </modules>
 
     <properties>

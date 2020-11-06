@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Develop/Develop.iml" filepath="$PROJECT_DIR$/Develop/Develop.iml" />
       <module fileurl="file://$PROJECT_DIR$/DownLoad/DownLoad.iml" filepath="$PROJECT_DIR$/DownLoad/DownLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapTool/MapTool.iml" filepath="$PROJECT_DIR$/MapTool/MapTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleCode.iml" filepath="$PROJECT_DIR$/SampleCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserControl/UserControl.iml" filepath="$PROJECT_DIR$/UserControl/UserControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VectorEditor/VectorEditor.iml" filepath="$PROJECT_DIR$/VectorEditor/VectorEditor.iml" />
     </modules>
   </component>
 </project>

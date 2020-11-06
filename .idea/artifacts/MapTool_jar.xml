@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MapTool:jar">
+    <output-path>$PROJECT_DIR$/../../bundles/plugin_bundles</output-path>
+    <root id="archive" name="MapTool.jar">
+      <element id="module-output" name="MapTool" />
+      <element id="file-copy" path="$PROJECT_DIR$/MapTool/src/main/resources/SuperMap.Desktop.MapTool.config" />
+    </root>
+  </artifact>
+</component>

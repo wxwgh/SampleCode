@@ -6,14 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="UserControl" />
         <module name="Develop" />
+        <module name="VectorEditor" />
+        <module name="MapTool" />
         <module name="DownLoad" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Develop" target="1.8" />
       <module name="DownLoad" target="1.8" />
+      <module name="MapTool" target="1.8" />
       <module name="SampleCode" target="1.8" />
+      <module name="UserControl" target="1.8" />
+      <module name="VectorEditor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

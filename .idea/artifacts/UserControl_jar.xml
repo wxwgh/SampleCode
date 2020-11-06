@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UserControl:jar">
+    <output-path>$PROJECT_DIR$/../../bundles/plugin_bundles</output-path>
+    <root id="archive" name="UserControl.jar">
+      <element id="module-output" name="UserControl" />
+      <element id="file-copy" path="$PROJECT_DIR$/UserControl/src/main/resources/SuperMap.Desktop.UserControl.config" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VectorEditor:jar">
+    <output-path>$PROJECT_DIR$/../../bundles/plugin_bundles</output-path>
+    <root id="archive" name="VectorEditor.jar">
+      <element id="module-output" name="VectorEditor" />
+      <element id="file-copy" path="$PROJECT_DIR$/VectorEditor/src/main/resources/SuperMap.Desktop.VectorEditor.config" />
+    </root>
+  </artifact>
+</component>

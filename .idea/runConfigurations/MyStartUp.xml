@@ -17,6 +17,9 @@
       <option name="BuildArtifacts" enabled="true">
         <artifact name="Develop:jar" />
         <artifact name="DownLoad:jar" />
+        <artifact name="MapTool:jar" />
+        <artifact name="UserControl:jar" />
+        <artifact name="VectorEditor:jar" />
       </option>
       <option name="Make" enabled="true" />
     </method>
