@@ -3,23 +3,22 @@
     <envs>
       <env name="path" value="bin" />
     </envs>
-    <option name="MAIN_CLASS_NAME" value="com.supermap.desktop.develop.MyStartUp" />
-    <module name="Develop" />
+    <option name="MAIN_CLASS_NAME" value="com.supermap.desktop.download.MyStartUp" />
+    <module name="DownLoad" />
     <shortenClasspath name="MANIFEST" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.supermap.desktop.develop.*" />
+        <option name="PATTERN" value="com.supermap.desktop.maptool.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
     <method v="2">
       <option name="BuildArtifacts" enabled="true">
-        <artifact name="Develop:jar" />
         <artifact name="DownLoad:jar" />
+      </option>
+      <option name="BuildArtifacts" enabled="true">
         <artifact name="MapTool:jar" />
-        <artifact name="UserControl:jar" />
-        <artifact name="VectorEditor:jar" />
       </option>
       <option name="Make" enabled="true" />
     </method>

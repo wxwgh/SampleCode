@@ -10,11 +10,11 @@ import com.supermap.desktop.download.ui.DialogSampleCode;
 public class CtrlActionSampleCode extends CtrlAction {
 
 	public CtrlActionSampleCode(IBaseItem caller) {
-		super(caller);
+	    super(caller);
 	}
 
 	@Override
 	public void run() {
-		new DialogSampleCode().showDialog();
-	}
+        new DialogSampleCode().showDialog();
+    }
 }

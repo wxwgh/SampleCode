@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>任务管理</title>
+    <desc>Created with Sketch.</desc>
+    <g id="7-在线" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="在线" transform="translate(-530.000000, -20.000000)" fill="#F0F0F0" fill-rule="nonzero">
+            <g id="7-在线_dark" transform="translate(18.000000, 20.000000)">
+                <g id="ribbon">
+                    <g id="32-任务管理_dark" transform="translate(512.000000, 0.000000)">
+                        <g id="任务管理" transform="translate(3.000000, 3.000000)">
+                            <path d="M1,1 L1,25 L25,25 L25,1 L1,1 Z M1,0 L25,0 C25.5522847,-1.01453063e-16 26,0.44771525 26,1 L26,25 C26,25.5522847 25.5522847,26 25,26 L1,26 C0.44771525,26 6.76353751e-17,25.5522847 0,25 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z M1,5 L25,5 L25,6 L1,6 L1,5 Z M16,3 L21,3 L21,4 L16,4 L16,3 Z M22,3 L24,3 L24,4 L22,4 L22,3 Z M12,12 L22,12 L22,13 L12,13 L12,12 Z M5.81399093,11.1362466 L8.90119272,7.54324445 L10.4181432,8.84664813 L5.98103197,14.010726 L2.96323164,11.2280928 L4.31899492,9.75775066 L5.81399093,11.1362466 Z" id="形状"></path>
+                            <path d="M9,16 L22,16 L22,17 L9,17 L9,16 Z M9,20 L22,20 L22,21 L9,21 L9,20 Z M5,15 L7,15 L7,17 L5,17 L5,15 Z M5,19 L7,19 L7,21 L5,21 L5,19 Z" id="合并形状" fill-opacity="0.5"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,7 +2,12 @@ package com.supermap.desktop.download;
 
 import com.supermap.desktop.core.Application;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.Locale;
+import java.util.Properties;
 import java.util.ResourceBundle;
 
 /**
@@ -22,7 +27,7 @@ public class DownLoadProperties {
 	private static String getString(String baseName, String key) {
 		String result = "";
 
-		ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
+            ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
 		if (resourceBundle != null) {
 			try {
 				result = resourceBundle.getString(key);
@@ -32,4 +37,15 @@ public class DownLoadProperties {
 		}
 		return result;
 	}
+    public static void setString(String key,String value,String path){
+        Properties props = new Properties();
+        try {
+            props.load(new FileInputStream(path));
+            OutputStream fos = new FileOutputStream(path);
+            props.setProperty(key, value);
+            props.store(fos, "Update '" + key + "' value");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    };
 }

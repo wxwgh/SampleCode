@@ -19,6 +19,7 @@
     <properties>
         <objects.version>10.1.0-SNAPSHOT</objects.version>
         <DesktopPath>${project.basedir}/../../../</DesktopPath>
+
     </properties>
     <!--配置远程仓库地址-->
     <repositories>
@@ -38,7 +39,9 @@
         </pluginRepository>
     </pluginRepositories>
 
+
     <build>
+
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
