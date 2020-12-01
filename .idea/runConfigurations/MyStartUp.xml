@@ -20,6 +20,9 @@
       <option name="BuildArtifacts" enabled="true">
         <artifact name="MapTool:jar" />
       </option>
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="VectorEditor:jar" />
+      </option>
       <option name="Make" enabled="true" />
     </method>
   </configuration>
