@@ -8,6 +8,7 @@ import com.supermap.desktop.core.Interface.IForm;
 import com.supermap.desktop.core.Interface.IFormMap;
 import com.supermap.desktop.core.implement.CtrlAction;
 import com.supermap.desktop.mapview.PositionLocalizerPanel;
+
 /**
  * @author Li Jian
  * @create 2020-11-30 11:07
@@ -21,7 +22,7 @@ public class CtrlActionPositionLocalizer extends CtrlAction {
         try {
             IDockbar dockbarPropertyContainer = Application.getActiveApplication().getMainFrame().getDockbarManager().get(Class.forName("com.supermap.desktop.mapview.PositionLocalizerPanel"));
             if (dockbarPropertyContainer != null) {
-                PositionLocalizerPanel panel = (PositionLocalizerPanel)dockbarPropertyContainer.getInnerComponent();
+                PositionLocalizerPanel panel = (PositionLocalizerPanel) dockbarPropertyContainer.getInnerComponent();
                 panel.dockbar = dockbarPropertyContainer;
                 panel.initPanel();
                 dockbarPropertyContainer.setVisible(true);

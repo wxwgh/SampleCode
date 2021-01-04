@@ -12,24 +12,24 @@ import java.util.ResourceBundle;
  */
 public class VectorEditorProperties {
 
-	private static final String VECTOREDITOR = "VectorEditor";
+    private static final String VECTOREDITOR = "VectorEditor";
 
-	public static String getString(String key) {
+    public static String getString(String key) {
 
-	    return getString(VECTOREDITOR, key);
-	}
+        return getString(VECTOREDITOR, key);
+    }
 
-	private static String getString(String baseName, String key) {
-		String result = "";
+    private static String getString(String baseName, String key) {
+        String result = "";
 
-		ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
-		if (resourceBundle != null) {
-			try {
-				result = resourceBundle.getString(key);
-			} catch (Exception e) {
-				Application.getActiveApplication().getOutput().output(e);
-			}
-		}
-		return result;
-	}
+        ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
+        if (resourceBundle != null) {
+            try {
+                result = resourceBundle.getString(key);
+            } catch (Exception e) {
+                Application.getActiveApplication().getOutput().output(e);
+            }
+        }
+        return result;
+    }
 }

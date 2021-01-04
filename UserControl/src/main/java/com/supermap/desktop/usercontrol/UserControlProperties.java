@@ -12,24 +12,24 @@ import java.util.ResourceBundle;
  */
 public class UserControlProperties {
 
-	private static final String USERCONTROL = "UserControl";
+    private static final String USERCONTROL = "UserControl";
 
-	public static String getString(String key) {
+    public static String getString(String key) {
 
-	    return getString(USERCONTROL, key);
-	}
+        return getString(USERCONTROL, key);
+    }
 
-	private static String getString(String baseName, String key) {
-		String result = "";
+    private static String getString(String baseName, String key) {
+        String result = "";
 
-		ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
-		if (resourceBundle != null) {
-			try {
-				result = resourceBundle.getString(key);
-			} catch (Exception e) {
-				Application.getActiveApplication().getOutput().output(e);
-			}
-		}
-		return result;
-	}
+        ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
+        if (resourceBundle != null) {
+            try {
+                result = resourceBundle.getString(key);
+            } catch (Exception e) {
+                Application.getActiveApplication().getOutput().output(e);
+            }
+        }
+        return result;
+    }
 }

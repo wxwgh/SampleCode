@@ -25,8 +25,8 @@ public class CtrlActionMeasureClear extends CtrlAction {
     public void run() {
         IForm activeForm = Application.getActiveApplication().getActiveForm();
         if (activeForm instanceof FormMap) {
-            FormMap formMap = (FormMap)activeForm;
-            MeasureUtilties.endMeasure((IFormMap)formMap);
+            FormMap formMap = (FormMap) activeForm;
+            MeasureUtilties.endMeasure((IFormMap) formMap);
             formMap.getMapControl().setTrackMode(TrackMode.TRACK);
             TrackingLayer trackingLayer = formMap.getMapControl().getMap().getTrackingLayer();
             for (int i = trackingLayer.getCount() - 1; i >= 0; i--) {
@@ -44,7 +44,7 @@ public class CtrlActionMeasureClear extends CtrlAction {
         boolean enable = false;
         IForm activeForm = Application.getActiveApplication().getActiveForm();
         if (activeForm instanceof IFormMap) {
-            IFormMap formMap = (IFormMap)activeForm;
+            IFormMap formMap = (IFormMap) activeForm;
             TrackingLayer trackingLayer = formMap.getMapControl().getMap().getTrackingLayer();
             for (int i = trackingLayer.getCount() - 1; i >= 0; i--) {
                 if (trackingLayer.getTag(i).startsWith("MapMeasureTrackingObject")) {

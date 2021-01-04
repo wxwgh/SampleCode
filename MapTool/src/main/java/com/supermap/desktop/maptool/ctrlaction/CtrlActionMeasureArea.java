@@ -27,7 +27,7 @@ public class CtrlActionMeasureArea extends CtrlAction {
     public void run() {
         IForm activeForm = Application.getActiveApplication().getActiveForm();
         if (activeForm instanceof com.supermap.desktop.mapview.FormMap)
-            MeasureUtilties.startMeasure((IFormMap)activeForm, MeasureType.Area);
+            MeasureUtilties.startMeasure((IFormMap) activeForm, MeasureType.Area);
     }
 
     public boolean enable() {

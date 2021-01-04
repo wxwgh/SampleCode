@@ -17,27 +17,28 @@ import java.util.ResourceBundle;
  */
 public class DownLoadProperties {
 
-	private static final String DOWNLOAD = "DownLoad";
+    private static final String DOWNLOAD = "DownLoad";
 
-	public static String getString(String key) {
+    public static String getString(String key) {
 
-	    return getString(DOWNLOAD, key);
-	}
+        return getString(DOWNLOAD, key);
+    }
 
-	private static String getString(String baseName, String key) {
-		String result = "";
+    private static String getString(String baseName, String key) {
+        String result = "";
 
-            ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
-		if (resourceBundle != null) {
-			try {
-				result = resourceBundle.getString(key);
-			} catch (Exception e) {
-				Application.getActiveApplication().getOutput().output(e);
-			}
-		}
-		return result;
-	}
-    public static void setString(String key,String value,String path){
+        ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, Locale.getDefault());
+        if (resourceBundle != null) {
+            try {
+                result = resourceBundle.getString(key);
+            } catch (Exception e) {
+                Application.getActiveApplication().getOutput().output(e);
+            }
+        }
+        return result;
+    }
+
+    public static void setString(String key, String value, String path) {
         Properties props = new Properties();
         try {
             props.load(new FileInputStream(path));
@@ -47,5 +48,7 @@ public class DownLoadProperties {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    };
+    }
+
+    ;
 }

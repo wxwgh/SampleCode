@@ -68,6 +68,16 @@
         <jarDirectory url="file://$MODULE_DIR$/../../../bundles/require_bundles" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../jxbrowser-6.14.2-refine" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../../jxbrowser-6.14.2-refine" recursive="false" />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:fluent-hc:4.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" level="project" />
@@ -83,9 +93,13 @@
     <orderEntry type="library" name="Maven: com.twelvemonkeys.common:common-lang:3.6" level="project" />
     <orderEntry type="library" name="Maven: com.twelvemonkeys.common:common-io:3.6" level="project" />
     <orderEntry type="library" name="Maven: com.twelvemonkeys.common:common-image:3.6" level="project" />
+    <orderEntry type="library" name="Maven: redis.clients:jedis:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: supermap:Core:1.0" level="project" />
     <orderEntry type="library" name="Maven: supermap:Frame:1.0" level="project" />
     <orderEntry type="library" name="Maven: supermap:Controls:1.0" level="project" />
     <orderEntry type="library" name="Maven: supermap:Process:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.java-websocket:Java-WebSocket:1.5.1" level="project" />
   </component>
 </module>

@@ -7,6 +7,7 @@ import com.supermap.desktop.core.Interface.IForm;
 import com.supermap.desktop.core.Interface.IFormMap;
 import com.supermap.desktop.core.implement.CtrlAction;
 import com.supermap.desktop.mapview.dialog.DialogMapPosition;
+
 /**
  * @author Li Jian
  * @create 2020-11-30 15:02

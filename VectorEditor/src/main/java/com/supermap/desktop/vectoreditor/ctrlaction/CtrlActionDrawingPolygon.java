@@ -12,10 +12,10 @@ public class CtrlActionDrawingPolygon extends CtrlActionDrawingBase {
     }
 
     protected DatasetType[] getTargetDatasetType() {
-        return new DatasetType[] { DatasetType.CAD, DatasetType.LINE, DatasetType.LINEM, DatasetType.LINE3D, DatasetType.NETWORK, DatasetType.NETWORK3D, DatasetType.REGION, DatasetType.REGION3D, DatasetType.MOSAIC };
+        return new DatasetType[]{DatasetType.CAD, DatasetType.LINE, DatasetType.LINEM, DatasetType.LINE3D, DatasetType.NETWORK, DatasetType.NETWORK3D, DatasetType.REGION, DatasetType.REGION3D, DatasetType.MOSAIC};
     }
 
     public GeometryDrawing getGeometryDrawing() {
-        return (GeometryDrawing)new GeometryDrawingPolygon();
+        return (GeometryDrawing) new GeometryDrawingPolygon();
     }
 }

@@ -10,23 +10,23 @@ import com.supermap.desktop.core.license.LicenseException;
  */
 public class UserControlPlugin extends AbstractPlugin {
 
-	public UserControlPlugin(String name, PluginInfo pluginInfo) throws LicenseException {
-		super(name, pluginInfo);
-	}
+    public UserControlPlugin(String name, PluginInfo pluginInfo) throws LicenseException {
+        super(name, pluginInfo);
+    }
 
-	@Override
-	public boolean isGranted() {
-		return true;
-	}
+    @Override
+    public boolean isGranted() {
+        return true;
+    }
 
-	@Override
-	public String getPluginTitle() {
-		return "UserControl";
-	}
+    @Override
+    public String getPluginTitle() {
+        return "UserControl";
+    }
 
-	@Override
-	public String getPluginName() {
-		return "SuperMap.Desktop.UserControl";
-	}
+    @Override
+    public String getPluginName() {
+        return "SuperMap.Desktop.UserControl";
+    }
 }
 

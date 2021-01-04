@@ -9,12 +9,12 @@ import com.supermap.desktop.vectoreditor.ui.DialogSampleCode;
  */
 public class CtrlActionSampleCode extends CtrlAction {
 
-	public CtrlActionSampleCode(IBaseItem caller) {
-		super(caller);
-	}
+    public CtrlActionSampleCode(IBaseItem caller) {
+        super(caller);
+    }
 
-	@Override
-	public void run() {
-		new DialogSampleCode().showDialog();
-	}
+    @Override
+    public void run() {
+        new DialogSampleCode().showDialog();
+    }
 }

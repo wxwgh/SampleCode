@@ -42,6 +42,13 @@
             <artifactId>imageio-tiff</artifactId>
             <version>3.6</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
 
         <dependency>
             <groupId>supermap</groupId>
@@ -63,5 +70,12 @@
             <artifactId>Process</artifactId>
             <version>1.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.java-websocket/Java-WebSocket -->
+        <dependency>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+
     </dependencies>
 </project>

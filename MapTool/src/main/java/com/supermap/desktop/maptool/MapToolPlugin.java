@@ -10,23 +10,23 @@ import com.supermap.desktop.core.license.LicenseException;
  */
 public class MapToolPlugin extends AbstractPlugin {
 
-	public MapToolPlugin(String name, PluginInfo pluginInfo) throws LicenseException {
-		super(name, pluginInfo);
-	}
+    public MapToolPlugin(String name, PluginInfo pluginInfo) throws LicenseException {
+        super(name, pluginInfo);
+    }
 
-	@Override
-	public boolean isGranted() {
-		return true;
-	}
+    @Override
+    public boolean isGranted() {
+        return true;
+    }
 
-	@Override
-	public String getPluginTitle() {
-		return "MapTool";
-	}
+    @Override
+    public String getPluginTitle() {
+        return "MapTool";
+    }
 
-	@Override
-	public String getPluginName() {
-		return "SuperMap.Desktop.MapTool";
-	}
+    @Override
+    public String getPluginName() {
+        return "SuperMap.Desktop.MapTool";
+    }
 }
 

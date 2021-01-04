@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>32-多边形裁剪</title>
+    <desc>Created with Sketch.</desc>
+    <g id="10-地图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="地图" transform="translate(-355.000000, -164.000000)" fill="#FFFFFF" stroke="#5D6D7E">
+            <g id="10-地图" transform="translate(13.000000, 12.000000)">
+                <g id="down" transform="translate(0.000000, 152.000000)">
+                    <g id="32-多边形裁剪" transform="translate(342.000000, 0.000000)">
+                        <g id="多边形裁剪" transform="translate(2.000000, 3.000000)">
+                            <path d="M14,0.618033989 L1.27299402,9.86474508 L6.13427773,24.8262379 L21.8657223,24.8262379 L26.727006,9.86474508 L14,0.618033989 Z"
+                                  id="多边形"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

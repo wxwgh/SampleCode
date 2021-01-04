@@ -3,7 +3,7 @@ package com.supermap.desktop.download.consts;
 
 /**
  * 下载任务状态
- * 
+ *
  * @author wxw
  */
 public enum TaskStateEnum {

@@ -10,23 +10,23 @@ import com.supermap.desktop.core.license.LicenseException;
  */
 public class VectorEditorPlugin extends AbstractPlugin {
 
-	public VectorEditorPlugin(String name, PluginInfo pluginInfo) throws LicenseException {
-		super(name, pluginInfo);
-	}
+    public VectorEditorPlugin(String name, PluginInfo pluginInfo) throws LicenseException {
+        super(name, pluginInfo);
+    }
 
-	@Override
-	public boolean isGranted() {
-		return true;
-	}
+    @Override
+    public boolean isGranted() {
+        return true;
+    }
 
-	@Override
-	public String getPluginTitle() {
-		return "VectorEditor";
-	}
+    @Override
+    public String getPluginTitle() {
+        return "VectorEditor";
+    }
 
-	@Override
-	public String getPluginName() {
-		return "SuperMap.Desktop.VectorEditor";
-	}
+    @Override
+    public String getPluginName() {
+        return "SuperMap.Desktop.VectorEditor";
+    }
 }
 

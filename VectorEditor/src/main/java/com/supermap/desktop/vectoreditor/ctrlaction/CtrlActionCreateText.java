@@ -21,9 +21,9 @@ public class CtrlActionCreateText extends ActionCreateBase {
 
     public void run() {
         try {
-            IFormMap formMap = (IFormMap)Application.getActiveApplication().getActiveForm();
+            IFormMap formMap = (IFormMap) Application.getActiveApplication().getActiveForm();
             CreateTextAction createTextAction = new CreateTextAction();
-            createTextAction.start((MapControl)formMap.getMapControl());
+            createTextAction.start((MapControl) formMap.getMapControl());
         } catch (Exception ex) {
             Application.getActiveApplication().getOutput().output(ex);
         }

@@ -12,10 +12,10 @@ public class CtrlActionDrawingPoint extends CtrlActionDrawingBase {
     }
 
     protected DatasetType[] getTargetDatasetType() {
-        return new DatasetType[] { DatasetType.CAD, DatasetType.POINT, DatasetType.POINT3D };
+        return new DatasetType[]{DatasetType.CAD, DatasetType.POINT, DatasetType.POINT3D};
     }
 
     public GeometryDrawing getGeometryDrawing() {
-        return (GeometryDrawing)new GeometryDrawingPoint();
+        return (GeometryDrawing) new GeometryDrawingPoint();
     }
 }
